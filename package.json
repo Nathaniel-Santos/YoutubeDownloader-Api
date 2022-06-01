@@ -1,0 +1,39 @@
+{
+  "name": "codestick-yt-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/tydl.ts",
+  "scripts": {
+    "start": "nodemon src/tydl.js",
+    "dev": "nodemon src/tydl.ts",
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "yarn": "^1.22.17",
+    "ytdl-core": "^4.11.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.0",
+    "sucrase": "^3.20.3",
+    "typescript": "^4.5.2"
+  }
+}
