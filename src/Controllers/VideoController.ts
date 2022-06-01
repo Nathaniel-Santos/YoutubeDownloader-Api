@@ -17,4 +17,4 @@ const Video = async (req: Request, res: Response) => {
 
 module.exports = {
     get: Video
-}
+} 

@@ -26,4 +26,4 @@ export interface FormatsVideoData {
 	url: string,
 	videoCodec: string,
 	width: number
-}
+} 

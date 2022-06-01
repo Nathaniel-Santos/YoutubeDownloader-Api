@@ -30,7 +30,7 @@ const convertUrl: Function = (url: string) => {
 		console.log('Entrou 4')
 		const result: string = "https://youtube.com/watch?v=dQw4w9WgXcQ"
 		
-		return result
+		return result 
 	}
 }
 

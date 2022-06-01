@@ -8,4 +8,4 @@ export interface videoDetailsData {
 	publishDate: string,
 	lengthSeconds: string,
 	likes: number
-}
+} 

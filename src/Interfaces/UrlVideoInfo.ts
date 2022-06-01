@@ -4,4 +4,4 @@ export interface UrlVideoInfo {
 	itag?: string,
 	type?: string,
 	ab_channel?: string
-}
+} 
